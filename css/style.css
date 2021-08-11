@@ -494,7 +494,7 @@ body {
 }
 
 .order-link {
-    font-family: 'Lato';
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 14px;
     color: #fff;
@@ -504,7 +504,6 @@ body {
     background: #df1b31;
     margin: 0 auto;
     text-align: center;
-    margin-top: 20px;
 }
 
 .order-link:hover {
@@ -811,7 +810,7 @@ body {
     background: url('../img/work-bg.webp') no-repeat center;
     background-size: cover;
     height: 960px;
-    padding-top: 80px;
+    margin-top: 80px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -819,7 +818,7 @@ body {
 
 .work-title {
     color: #fff;
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
