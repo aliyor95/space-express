@@ -312,12 +312,17 @@ body {
     background: #f00;
 }
 
+.carousel-indicators {
+    margin-bottom: 4rem;
+}
+
 .carousel-item h1 {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 59px;
+    font-size: 48px;
     color: #fff;
-    width: 1170px;
+    width: 1000px;
+    line-height: 1.2;
     position: absolute;
     left: 50%;
     top: 50%;
