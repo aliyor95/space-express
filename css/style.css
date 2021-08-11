@@ -62,7 +62,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #fff;
-    background: #000;
+    background: #fff;
 }
 
 .page {
@@ -247,6 +247,10 @@ body {
     left: 0;
 }
 
+.nav-link.active {
+    color: #f00;
+}
+
 .nav.fixed {
     width: 100%;
     display: -webkit-box;
@@ -331,9 +335,9 @@ body {
     -webkit-transform: translate(-50%);
         -ms-transform: translate(-50%);
             transform: translate(-50%);
-    font-family: 'Lato';
     font-weight: 700;
-    font-size: 14px;
+    font-family: 'Montserrat';
+    font-size: 18px;
     color: #fff;
     padding: 20px 35px;
     text-transform: uppercase;
@@ -402,7 +406,7 @@ body {
 /* Services
 ============================================= */
 .services {
-    margin-top: 80px;
+    padding-top: 100px;
 }
 
 .services-content {
@@ -807,7 +811,7 @@ body {
     background: url('../img/work-bg.webp') no-repeat center;
     background-size: cover;
     height: 960px;
-    margin-top: 80px;
+    padding-top: 80px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -815,7 +819,7 @@ body {
 
 .work-title {
     color: #fff;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -954,10 +958,6 @@ iframe {
 
 .contact-left .title {
     color: #fff;
-}
-
-body {
-    background: #fff;
 }
 
 .copyright {
