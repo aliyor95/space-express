@@ -1,5 +1,3 @@
-
-
 [class^="swiper-button-"] {
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
@@ -21,10 +19,12 @@
   transition: opacity .6s ease, transform .3s ease;
   transition: opacity .6s ease, transform .3s ease, -webkit-transform .3s ease;
 }
+
 .swiper-container.nav-slider {
   width: 20%;
   padding-left: 5px;
 }
+
 .swiper-container.nav-slider .swiper-slide {
   cursor: pointer;
   opacity: .4;
@@ -32,23 +32,28 @@
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease;
 }
+
 .swiper-container.nav-slider .swiper-slide.swiper-slide-active {
   opacity: 1;
 }
+
 .swiper-container.nav-slider .swiper-slide .content {
   width: 100%;
 }
+
 .swiper-container.nav-slider .swiper-slide .content .title {
   font-size: 20px;
 }
+
 .swiper-container:hover .swiper-button-prev,
 .swiper-container:hover .swiper-button-next {
   -webkit-transform: translateX(0);
-          -ms-transform: translateX(0);
-      transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
   opacity: 1;
   visibility: visible;
 }
+
 .swiper-container.loading {
   opacity: 0;
   visibility: hidden;
@@ -58,6 +63,7 @@
   overflow: hidden;
   padding-bottom: 80px;
 }
+
 .swiper-slide .slide-bgimg {
   position: absolute;
   top: 0;
@@ -68,9 +74,11 @@
   background-position: center;
   background-size: cover;
 }
+
 .swiper-slide .entity-img {
   display: none;
 }
+
 .swiper-slide .content {
   position: absolute;
   top: 40%;
@@ -79,18 +87,20 @@
   padding-left: 5%;
   color: #fff;
 }
+
 .swiper-slide .content .title {
   font-size: 2.6em;
   font-weight: bold;
   margin-bottom: 30px;
 }
+
 .swiper-slide .content .caption {
   display: block;
   font-size: 13px;
   line-height: 1.4;
   -webkit-transform: translateX(50px);
-          -ms-transform: translateX(50px);
-      transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
   opacity: 0;
   -webkit-transition: opacity .3s ease, -webkit-transform .7s ease;
   transition: opacity .3s ease, -webkit-transform .7s ease;
@@ -98,10 +108,11 @@
   transition: opacity .3s ease, transform .7s ease;
   transition: opacity .3s ease, transform .7s ease, -webkit-transform .7s ease;
 }
+
 .swiper-slide .content .caption.show {
   -webkit-transform: translateX(0);
-          -ms-transform: translateX(0);
-      transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
   opacity: 1;
 }
 
@@ -113,14 +124,14 @@
 
 .swiper-button-prev {
   -webkit-transform: translateX(50px);
-          -ms-transform: translateX(50px);
-      transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
 }
 
 .swiper-button-next {
   -webkit-transform: translateX(-50px);
-          -ms-transform: translateX(-50px);
-      transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  transform: translateX(-50px);
 }
 
 
@@ -129,8 +140,8 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 550px;
 }
 
@@ -173,7 +184,7 @@ to align it properly */
 .wrapper ul li:hover.facebook {
   border: 5px solid #3b5998;
   -webkit-box-shadow: 0 0 15px #3b5998;
-          box-shadow: 0 0 15px #3b5998;
+  box-shadow: 0 0 15px #3b5998;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -191,7 +202,7 @@ to align it properly */
 .wrapper ul li:hover.twitter {
   border: 5px solid #00aced;
   -webkit-box-shadow: 0 0 15px #00aced;
-          box-shadow: 0 0 15px #00aced;
+  box-shadow: 0 0 15px #00aced;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -209,7 +220,7 @@ to align it properly */
 .wrapper ul li:hover.instagram {
   border: 5px solid #bc2a8d;
   -webkit-box-shadow: 0 0 15px #bc2a8d;
-          box-shadow: 0 0 15px #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -227,7 +238,7 @@ to align it properly */
 .wrapper ul li:hover.google {
   border: 5px solid #dd4b39;
   -webkit-box-shadow: 0 0 15px #dd4b39;
-          box-shadow: 0 0 15px #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -245,7 +256,7 @@ to align it properly */
 .wrapper ul li:hover.whatsapp {
   border: 5px solid #4dc247;
   -webkit-box-shadow: 0 0 15px #4dc247;
-          box-shadow: 0 0 15px #4dc247;
+  box-shadow: 0 0 15px #4dc247;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -262,31 +273,57 @@ to align it properly */
 
 /* media queries */
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
   .wrapper {
-      width: 350px;
+    width: 350px;
   }
-  .wrapper ul li{
-      margin-top: 10px;
+
+  .wrapper ul li {
+    margin-top: 10px;
   }
-  .wrapper ul li.google{
-      margin-left: 60px;
+
+  .wrapper ul li.google {
+    margin-left: 60px;
   }
 }
 
 
-@media screen and (max-width: 340px){
+@media screen and (max-width: 340px) {
   .wrapper {
-      width: 150px;
+    width: 150px;
   }
-  .wrapper ul li{
-      margin:15px;
+
+  .wrapper ul li {
+    margin: 15px;
   }
-  .wrapper ul li.google{
-      margin-left: 15px;
+
+  .wrapper ul li.google {
+    margin-left: 15px;
   }
 }
 
 .note {
   display: none;
+}
+
+/* Responsive
+============================================= */
+@media (max-width: 1023px) {
+  .swiper-slide .slide-bgimg {
+    max-height: 700px;
+  }
+
+  .swiper-container {
+    max-height: 700px;
+  }
+}
+
+@media (max-width: 575px) {
+  .swiper-slide .slide-bgimg {
+    max-height: 350px;
+  }
+
+  .swiper-container {
+    max-height: 350px;
+  }
 }

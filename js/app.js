@@ -169,3 +169,29 @@ var navSlider = new Swiper(navSliderSelector, navSliderOptions);
 mainSlider.controller.control = navSlider;
 navSlider.controller.control = mainSlider;
 
+//  Menu nav toggle
+$("#nav_toggle").on("click", function (event) {
+  event.preventDefault();
+  $(this).toggleClass("active");
+  $("#nav").toggleClass("active");
+});
+
+// Smooth scroll
+$('[data-scroll]').on('click', function(event) {
+  event.preventDefault();
+
+  let = $this = $(this),
+  blockId = $this.data('scroll'),
+  blockOffset = $(blockId).offset().top;
+
+  $('.nav-link').removeClass('active');
+  $this.addClass('active');
+
+  $('#nav-menu').removeClass('active')
+  $('#nav_toggle').removeClass('active')
+  $('#nav').removeClass('active')
+
+  $('html, body').animate ({
+      scrollTop: blockOffset
+  }, 100);
+})

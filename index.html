@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="page">
+    <div class="page" id="about">
         <!-- Header -->
         <header class="header">
             <div class="header-top">
@@ -39,13 +39,20 @@
                             </a>
                         </div>
                         <div class="nav-menu">
-                            <a class="nav-link" href="#">О нас</a>
-                            <a class="nav-link" href="#services">УСЛУГИ</a>
-                            <a class="nav-link" href="#works">Наши работы</a>
-                            <a class="nav-link" href="#contact">КОНТАКТЫ</a>
-                            <a class="order-link" href="#forma">оставить заявку</a>
+                            <a class="nav-link" href="#" data-scroll="#about">О нас</a>
+                            <a class="nav-link" href="#" data-scroll="#services">УСЛУГИ</a>
+                            <a class="nav-link" href="#" data-scroll="#works">Наши работы</a>
+                            <a class="nav-link" href="#" data-scroll="#contact">КОНТАКТЫ</a>
+                            <a class="order-link" href="#" data-scroll="#forma">оставить заявку</a>
+                            <div class="header__top-content1">
+                                <img class="tel" src="img/tel.webp" alt="photo">
+                                <a class="tel-number" href="tel:+998998043373">+998 99 8043373</a>
+                            </div>
                         </div>
                     </nav>
+                    <button class="nav-toggle" id="nav_toggle" type="button">
+                        <span class="nav-toggle__item">Menu</span>
+                      </button>
                 </div>
             </div>
         </header>
@@ -64,22 +71,22 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="4000">
-                        <img src="img/bg-1.png" class="d-block w-100" alt="photo">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="img/bg-1.webp" class="d-block w-100" alt="photo">
+                        <div class="carousel-caption d-md-block">
                             <h1>гарантиtя наиболее выгодных <br> маршрутов и цен на <br>
                                 перевозку грузов</h1>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="4000">
                         <img src="img/bg-2.webp" class="d-block w-100" alt="photo">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h1>гарантиtя наиболее выгодных <br> маршрутов и цен на <br>
                                 перевозку грузов</h1>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="4000">
                         <img src="img/bg-3.webp" class="d-block w-100" alt="photo">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h1>гарантиtя наиболее выгодных <br> маршрутов и цен на <br>
                                 перевозку грузов</h1>
                         </div>
@@ -177,7 +184,7 @@
                                 грузов</h3>
                         </div>
                     </div>
-                    <a class="order-link" href="#forma" data-aos="fade-up">оставить заявку</a>
+                    <a class="order-link order" href="#forma" data-aos="fade-up">оставить заявку</a>
                 </div>
             </div>
         </section>
@@ -187,7 +194,7 @@
         <section class="prioritet">
             <div class="container">
                 <h3 class="prioritet-title" data-aos="fade-up">Наши приоритеты</h3>
-                <p class="prioritet_text" data-aos="zoom-in">Наша надежность, оперативность и высокий уровень сервиса
+                <p class="prioritet_text prioritet_text-top" data-aos="zoom-in">Наша надежность, оперативность и высокий уровень сервиса
                     доказаны многими годами
                     работы с внешнеторговыми компаниями,
                     многими выполненными перевозками и высокой оценкой наших партнеров. Наши Клиенты не могут себе
@@ -655,9 +662,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="contact-cener" data-aos="zoom-in">
+                <div class="contact-center" data-aos="zoom-in">
                     <iframe class="adres"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.036340030787!2d66.92136895025395!3d39.671397108454094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQwJzE3LjAiTiA2NsKwNTUnMjQuOCJF!5e0!3m2!1suz!2s!4v1611636594267!5m2!1suz!2s"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.425771687962!2d69.21473561520054!3d41.27783717927433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a407ada3ced%3A0x1f9f626cc9d71f58!2zODEg0KfQuNC70LDQvdC30LDRgNGB0LrQsNGPINGD0LvQuNGG0LAsINCi0LDRiNC60LXQvdGCIDEwMDExNSwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1628839268695!5m2!1sru!2s"
                         style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <div class="contact-right" id="forma" data-aos="fade-left">
@@ -673,6 +680,11 @@
                             placeholder="Примечания" required data-aos="fade-left"></textarea>
                         <button class="modal__button" type="submit" data-aos="fade-left">Отправить</button>
                     </form>
+                </div>
+                <div class="contact-center1" data-aos="zoom-in">
+                    <iframe class="adres"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.036340030787!2d66.92136895025395!3d39.671397108454094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQwJzE3LjAiTiA2NsKwNTUnMjQuOCJF!5e0!3m2!1suz!2s!4v1611636594267!5m2!1suz!2s"
+                        style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
             <div class="copyright">
