@@ -306,6 +306,11 @@ to align it properly */
   display: none;
 }
 
+.carousel-photo {
+  width: 100%;
+  max-height: 700px;
+}
+
 /* Responsive
 ============================================= */
 @media (max-width: 1023px) {
@@ -316,6 +321,23 @@ to align it properly */
   .swiper-container {
     max-height: 700px;
   }
+
+  .carousel-photo {
+    width: 100%;
+    max-height: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel-photo {
+    max-height: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-photo {
+    max-height: 400px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -325,5 +347,9 @@ to align it properly */
 
   .swiper-container {
     max-height: 350px;
+  }
+
+  .carousel-photo {
+    max-height: 207px;
   }
 }
