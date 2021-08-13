@@ -308,7 +308,7 @@ to align it properly */
 
 .carousel-photo {
   width: 100%;
-  max-height: 700px;
+  height: 900px;
 }
 
 /* Responsive
@@ -323,8 +323,8 @@ to align it properly */
   }
 
   .carousel-photo {
-    width: 100%;
-    max-height: 500px;
+    width: 120%;
+    height: 700px;
   }
 }
 
@@ -336,7 +336,7 @@ to align it properly */
 
 @media (max-width: 768px) {
   .carousel-photo {
-    max-height: 400px;
+    max-height: 500px;
   }
 }
 
@@ -350,6 +350,6 @@ to align it properly */
   }
 
   .carousel-photo {
-    max-height: 207px;
+    max-height: 300px;
   }
 }

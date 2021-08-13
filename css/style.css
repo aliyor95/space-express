@@ -1389,7 +1389,7 @@ iframe {
     .header {
         position: relative;
         z-index: 9999;
-        width: 100%;
+        width: 110%;
         height: 51px;
         background: #000;
         position: fixed;
@@ -1424,6 +1424,11 @@ iframe {
 
     .order-link {
         margin-top: 20px;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 15%;
     }
 
     .nav-menu .order-link {
